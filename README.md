@@ -18,7 +18,7 @@ cd logs-analysis/
 
 1) Open a terminal / shell / command line / command prompt window
 2) Navigate to project directory ```logs-analysis/```
-3) Start run log-analysis, enter the command:
+3) To run the log-analysis program, enter the command:
 ```
 python3 news.py
 ```
