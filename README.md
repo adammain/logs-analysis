@@ -80,7 +80,7 @@ Project is split into two files, `news.py` and `newsdb.py`.
   ```
   ---
   -- `get_error_report()` - Queries the DB to answer the question: **_On which days did more than 1% of site requests lead to errors?_**
-    - _Uses a subquery named `error_log` to find each days percent error (named `percent_error`) from the log database. Another query then tests each day's error percentage, returning only those with an error rate over 1%._
+    - _Uses a subquery named `error_log` to find each days percent error (named `percent_error`) from the log table. Another query then tests each day's error percentage, returning only those with an error rate over 1%._
   ```
   with error_log as 
   ( 
