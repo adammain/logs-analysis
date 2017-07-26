@@ -58,7 +58,7 @@ The following output should be displayed in your terminal shell window:
 Project is split into two files, `news.py` and `newsdb.py`.
 
 - `news.py` is responsible the programs initiation, calling the functions that contain the SQL queries, and organizing the SQL query's return output into plain text format.
-- `newsdb.py` contains our database connection and the functions to execute each SQL query:
+- `newsdb.py` contains the database connection and the functions to execute each SQL query:
 
   -- `get_article_report()` - Queries the DB to answer the question: **_What are the most popular three articles of all time?_**
     - _Matches each articles slug with the log's url records to determine how many time each article was viewed.  Returns the the top 3 viewed article titles and their viewcount._
